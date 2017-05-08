@@ -8,7 +8,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-            <div>
+        <div>
         <asp:Button ID ="changeLocB" runat="server" Text="View/Change Location" width ="150" OnClick="changeLocB_Click"/>
        </div>
             <div>

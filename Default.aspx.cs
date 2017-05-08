@@ -19,16 +19,16 @@ public partial class _Default : System.Web.UI.Page
 
     protected void editDetB_Click(object sender, EventArgs e)
     {
-        Response.Redirect("EditDetails.aspx");
+        Response.Redirect("Details.aspx");
     }
 
     protected void pastLocB_Click(object sender, EventArgs e)
     {
-        //Response.Redirect("PastLocations.aspx");
+        Response.Redirect("PastLocations.aspx");
     }
 
     protected void locPop_Click(object sender, EventArgs e)
     {
-        //Response.Redirect("LocationPopulations.aspx");
+        Response.Redirect("LocationPopulation.aspx");
     }
 }
